@@ -1,0 +1,16 @@
+{
+    "name": "new_tutamail",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/script.js",
+    "scripts": {
+      "build": "tsc",         
+      "watch": "tsc -w"       
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "typescript": "^5.5.3"  
+    }
+  }
+  

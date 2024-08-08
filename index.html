@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        input {
+            width: 300px;
+            padding: 10px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            margin-top: 20px;
+            outline: none;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        .valid {
+            border-color: green;
+        }
+        .invalid {
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>URL Checker</h1>
+    <input type="text" id="urlInput" placeholder="Enter a URL" />
+    <div id="result"></div>
+
+    <script src="./dist/script.js"></script> 
+</body>
+</html>
